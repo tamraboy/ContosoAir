@@ -1,7 +1,7 @@
 pool:
   vmImage: ubuntu-16.04
 trigger:
-  - master
+  - master    ## CI Triggers 를 통해 실행 => Master branch에 업데이트가 trigger로 동작
 steps:
   - task: Npm@1
     inputs:
